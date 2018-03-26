@@ -1,0 +1,15 @@
+﻿<Window x:Class="ReadListOfTeams.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReadListOfTeams"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" FontSize="24">
+    <StackPanel>
+        <Label x:Name="lblFileRead">File to read from...</Label>
+        <Button x:Name="btnPickFileRead" Click="btnPickFileRead_Click">Pick File</Button>
+        <Label x:Name="lblFileWrite">File to write to...</Label>
+        <Button x:Name="btnPickFileWrite" Click="btnPickFileWrite_Click" IsEnabled="False">Pick File</Button>
+    </StackPanel>
+</Window>
